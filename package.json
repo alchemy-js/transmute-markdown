@@ -1,0 +1,46 @@
+{
+  "name": "@alchemy-js/transmute-markdown",
+  "version": "1.0.0",
+  "description": "Transmute markdown with Alchemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "jest test --watch"
+  },
+  "keywords": [
+    "static",
+    "site",
+    "generator",
+    "markdown"
+  ],
+  "author": "John Foderaro",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "index.js"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ]
+  },
+  "dependencies": {
+    "marked": "^0.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alchemy-js/transmute-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alchemy-js/transmute-markdown/issues"
+  },
+  "homepage": "https://github.com/alchemy-js/transmute-markdown#readme"
+}
